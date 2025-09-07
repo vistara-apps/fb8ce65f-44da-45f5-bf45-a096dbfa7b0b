@@ -1,25 +1,29 @@
-# Legalo - X402 Payment Flow Implementation
+# Legalo - Your Pocket Rights Navigator
 
-A complete implementation of the X402 payment protocol using USDC on Base network with wagmi and x402-axios integration.
+Legalo provides easily accessible and understandable legal rights information and actionable guidance for everyday situations within a Farcaster frame. Built with X402 payment protocol for USDC micro-transactions on Base.
 
 ## 🚀 Features
 
-- ✅ **Wagmi useWalletClient Integration**: React hooks for Ethereum wallet interactions
-- ✅ **X402-Axios Support**: HTTP 402 payment protocol handling
-- ✅ **USDC on Base**: Fast, low-cost stablecoin payments
-- ✅ **Transaction Confirmation**: Real-time confirmation tracking
-- ✅ **Error Handling**: Comprehensive error scenarios coverage
-- ✅ **End-to-End Testing**: Complete payment flow verification
+- ✅ **Rights Knowledge Base**: Curated collection of legal rights scenarios with summaries and detailed information
+- ✅ **Scenario-Specific Guidance**: Interactive checklists and step-by-step guides for rights-related situations
+- ✅ **Dispute Resolution Templates**: Pre-written, customizable letter templates for common disputes
+- ✅ **Farcaster Frame Integration**: Seamless experience within Farcaster social app
+- ✅ **X402 Payment Protocol**: USDC micro-transactions on Base for premium content
+- ✅ **AI-Powered Search**: Intelligent search and content generation using OpenAI
+- ✅ **Wagmi Integration**: React hooks for Ethereum wallet interactions
+- ✅ **Transaction Confirmation**: Real-time payment confirmation tracking
 
 ## 🛠 Tech Stack
 
-- **Next.js 14**: React framework with App Router
-- **TypeScript**: Type-safe development
-- **Wagmi**: React hooks for Ethereum
-- **Viem**: TypeScript interface for Ethereum
-- **RainbowKit**: Wallet connection UI
-- **Tailwind CSS**: Utility-first styling
-- **Jest**: Testing framework
+- **Frontend**: Next.js 14, React, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes, Drizzle ORM, PostgreSQL
+- **Database**: Supabase (PostgreSQL)
+- **Authentication**: Privy (Farcaster ID + Wallet)
+- **AI**: OpenAI GPT-4 for content generation and search
+- **Payments**: X402 protocol with USDC on Base blockchain
+- **Frames**: frames.js for Farcaster integration
+- **Wallet**: Wagmi, Viem, RainbowKit for Ethereum interactions
+- **Testing**: Jest framework
 
 ## 📦 Installation
 
